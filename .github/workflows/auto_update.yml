@@ -9,7 +9,7 @@ on:
   schedule:
     # 每天 02:00 UTC 运行 (大约是北京时间 10:00)
     # 你可以自由修改这个 cron 表达式
-    - cron: '0 2 * * *'
+    - cron: '0 * * * *'
 
 jobs:
   build-rules:
